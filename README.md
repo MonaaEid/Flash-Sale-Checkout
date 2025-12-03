@@ -28,12 +28,14 @@ This project implements a minimal inventory reservation system with:
      `sudo service mysql start`
  * Create a database for your project
  * Configure Laravel to use MySQL
-   ```DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=flash_sale
-        DB_USERNAME=root
-        DB_PASSWORD=your_password```
+   ```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=flash_sale
+    DB_USERNAME=root
+    DB_PASSWORD=your_password
+   ```
 
   ***Run the project***
  1- Clone the repo:
