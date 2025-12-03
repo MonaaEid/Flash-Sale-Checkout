@@ -20,11 +20,28 @@ This project implements a minimal inventory reservation system with:
 
  * Cache (product:{id}:available_stock) is invalidated on every state change.
 
+
 # **How to Run Locally**
- - Clone the repo:
-    `git clone `
+***Database Installation***
+ * Download & install MySQL
+ * start the mysql service
+     `sudo service mysql start`
+ * Create a database for your project
+ * Configure Laravel to use MySQL
+   `DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=flash_sale
+    DB_USERNAME=root
+    DB_PASSWORD=your_password`
+
+  ***Run the project***
+ 1- Clone the repo:
+    `git clone https://github.com/MonaaEid/Flash-Sale-Checkout.git `
     `cd flash-sale-checkout`
 
+ 2- Install dependencies
+  `composer install`
  2- Configure .env with DB connection.
 
  3- Run migrations and seeders:
