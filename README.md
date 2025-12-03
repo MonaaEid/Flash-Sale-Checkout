@@ -38,19 +38,20 @@ This project implements a minimal inventory reservation system with:
    ```
 
   ***Run the project***
- 1- Clone the repo:
-    `git clone https://github.com/MonaaEid/Flash-Sale-Checkout.git `
-    `cd flash-sale-checkout`
-
- 2- Install dependencies
-  `composer install`
- 2- Configure .env with DB connection.
-
- 3- Run migrations and seeders:
-    `php artisan migrate --seed`
-
- 4- Start the server:
-    `php artisan serve`
+  
+     1- Clone the repo:
+        `git clone https://github.com/MonaaEid/Flash-Sale-Checkout.git `
+        `cd flash-sale-checkout`
+    
+     2- Install dependencies
+      `composer install`
+     2- Configure .env with DB connection.
+    
+     3- Run migrations and seeders:
+        `php artisan migrate --seed`
+    
+     4- Start the server:
+        `php artisan serve`
 
 **How to Test**
     `php artisan test`
