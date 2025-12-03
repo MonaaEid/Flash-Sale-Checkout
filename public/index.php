@@ -5,6 +5,12 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
+// Suppress deprecation notices (temporary): PHP 8.4 warns about
+// implicitly nullable parameters in some vendor code. Remove after
+// upgrading Laravel or running on a compatible PHP version.
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
+
 /*
 |--------------------------------------------------------------------------
 | Check If The Application Is Under Maintenance
